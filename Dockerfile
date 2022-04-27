@@ -10,7 +10,7 @@ COPY --from=builder /go/bin/mtail /usr/bin/mtail
 ENTRYPOINT ["/usr/bin/mtail"]
 EXPOSE 3903
 WORKDIR /tmp
-
+# test
 
 ARG version=0.0.0-local
 ARG build_date=unknown
